@@ -1,0 +1,23 @@
+/* TODO: Create a motivational post website.
+5. Create a div to contain the h1, p and img elements. 
+Adjust the margins so that the image and text are centered on the page. 
+  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
+  Hint: Set the image to have a width of 100% so it fills the div.
+   */
+
+* {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+img {
+    border: 5px white solid;
+}
+
+div {
+    padding: 25px;
+    width: 50%;
+    margin-left: 25%;
+}
