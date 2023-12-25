@@ -14,6 +14,7 @@ Adjust the margins so that the image and text are centered on the page.
 
 img {
     border: 5px white solid;
+    width: 100%;
 }
 
 div {
