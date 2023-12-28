@@ -1,0 +1,10 @@
+/* <style>
+TODO 4: Use flexbox to center the card in the vertical and horizontal center.
+</style> */
+.flex-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
