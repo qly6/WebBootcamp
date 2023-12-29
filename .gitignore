@@ -1,0 +1,22 @@
+# Ignore temporary files
+*~
+*.swp
+
+# Ignore build artifacts
+/build/
+/dist/
+
+# Ignore dependencies (specific to a programming language)
+/node_modules/
+/venv/
+
+# Ignore configuration files
+.env
+config.ini
+
+# Ignore log files
+/log/
+*.log
+
+# Ignore node_modules in all subdirectories
+node_modules/
