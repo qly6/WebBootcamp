@@ -3,6 +3,11 @@ import express from "express";
 const app = express();
 const port = 3000;
 
+function logger(req, res, next) {
+  console.log("🚀 ~ file: index3.js:7 ~ logger ~ next:", req.method);
+  next();
+}
+
 app.use(logger);
 
 app.get("/", (req, res) => {
